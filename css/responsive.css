@@ -1,0 +1,303 @@
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        nav {
+            width: 20%;
+            background-color: rgb(9, 49, 82);
+            position: fixed;
+            left: 0;
+            top: 0;
+            height: 100vh;
+            text-align: center;
+            padding-top: 30px;
+        }
+        
+        .img {
+            width: 150px;
+            height: 150px;
+            border: 5px solid gray;
+            border-radius: 50%;
+        }
+        
+        .navbar {
+            padding-left: 30px;
+            text-align: left;
+        }
+        
+        .navbar ul li {
+            list-style: none;
+            padding-top: 25px;
+            font-size: 20px;
+        }
+        
+        .navbar ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .navbar ul li a:hover {
+            text-decoration: underline;
+            color: lightseagreen;
+        }
+        
+        .navbar ul li a i {
+            padding-right: 10px;
+        }
+        
+        .social {
+            position: absolute;
+            bottom: 40px;
+        }
+        
+        .social ul li {
+            display: inline-block;
+            padding-left: 20px;
+            font-size: 20px;
+        }
+        
+        .social ul li a {
+            color: white;
+        }
+        
+        .btn_close {
+            height: 25px;
+            width: 25px;
+            background-color: white;
+            color: rgb(9, 49, 82);
+            border: none;
+            font-size: 20px;
+            font-weight: bold;
+            position: absolute;
+            left: 225px;
+            top: 10px;
+        }
+        
+        .content {
+            width: 80%;
+            float: right;
+        }
+        
+        .banner {
+            width: 100%;
+            height: 100vh;
+            background-image: url(../img/bg.gif);
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-size: cover;
+        }
+        
+        .name h1 {
+            font-size: 62px;
+            color: rgb(9, 49, 82);
+        }
+        
+        .post {
+            background-color: rgb(9, 49, 82);
+            color: white;
+            width: 405px;
+            text-align: center;
+            padding: 2px 20px;
+            margin: auto;
+            font-size: 36px;
+        }
+        
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        
+        .h1 {
+            text-align: center;
+            padding-top: 50px;
+            font-size: 40px;
+            color: rgb(9, 49, 82);
+        }
+        
+        .line {
+            width: 300px;
+            height: 2px;
+            background-color: gray;
+            margin: auto;
+        }
+        
+        .info {
+            width: 80%;
+            margin: auto;
+        }
+        
+        .about {
+            float: left;
+            width: 50%;
+            color: rgb(9, 49, 82);
+        }
+        
+        .about p {
+            text-align: justify;
+            font-size: 18px;
+            color: gray;
+            padding-top: 20px;
+        }
+        
+        .details {
+            float: left;
+            width: 50%;
+            padding-left: 25%;
+            color: rgb(9, 49, 82);
+            box-sizing: border-box;
+        }
+        
+        .details h2,
+        p {
+            text-align: left;
+        }
+        
+        .details h4 {
+            text-align: left;
+            padding-top: 10px;
+        }
+        
+        .details p {
+            color: gray;
+        }
+        
+        .btn {
+            /* margin: 30px 0 0 -295px; */
+            padding: 10px;
+            width: 125px;
+            height: 45px;
+            border-radius: 14px;
+            font-weight: 700;
+            border: none;
+            background-color: rgb(9, 49, 82);
+            color: white;
+        }
+        
+        .btn a {
+            color: white;
+            text-decoration: none;
+        }
+        /* #education {
+            background-color: rgb(250, 244, 244);
+        }
+        
+        .institute {
+            margin: auto;
+            width: 80%;
+        }
+        
+        .board {
+            height: 216px;
+            width: 410px;
+        }
+        
+        .kkv {
+            float: left;
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+        }
+        
+        .school {
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        
+        .a {
+            margin: auto;
+            text-align: center;
+            padding-top: 5px;
+            width: 100%;
+        }
+        
+        .a a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .fnt {
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+        }
+        
+        .kkv {
+            float: left;
+            height: 150px;
+            width: 150px;
+            margin-top: 35px;
+            border-radius: 50%;
+        }
+        
+        .info1 {
+            margin: 30px 0 0 250px;
+            padding: 30px 30px 0 0;
+            width: 371px;
+            height: 185px;
+            background-color: rgb(9, 49, 82);
+        } */
+        /* .time {
+        width: 80%;
+        margin: auto; */
+        
+        @media only screen and (max-width: 430px) {
+            nav {
+                width: 60%;
+                background-color: rgb(9, 49, 82);
+                position: fixed;
+                left: 0;
+                top: 0;
+                height: 100vh;
+                text-align: center;
+                transition: 2s;
+            }
+            .content {
+                width: 100%;
+            }
+            .post {
+                padding: 0;
+            }
+            #education {
+                background-color: rgb(250, 244, 244);
+                margin: 20px 0 0 40px;
+            }
+            .institute {
+                margin: auto;
+                width: 100%;
+                margin-top: -84px;
+            }
+            .board {
+                width: 100%;
+                margin-top: 94px;
+                display: flex;
+                flex-direction: column;
+            }
+            .img {
+                height: 100px;
+                width: 100px;
+                margin: auto;
+                margin: 8px 0 0 10px;
+                border-radius: 50%;
+            }
+            .kkv {
+                margin: auto;
+            }
+            .info1 {
+                margin: 0;
+                width: 310px;
+                padding: 15px 30px 0 0;
+                background-color: rgb(9, 49, 82);
+            }
+        }
+        
+        @media screen and (min-width: 430px) and (max-width: 768px) {
+            nav {
+                width: 25%;
+            }
+        }
